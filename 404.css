@@ -1,0 +1,39 @@
+#page404 {
+	background-repeat: no-repeat;
+	background-color: #74D0F1;
+	font-family:bolder;
+	background-size: 50px 50px;
+	text-align: center;
+	
+}
+body{
+	height:100%;
+	padding:0px;
+	margin:0px;
+
+}
+
+#messageerreur{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#raison{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#lien{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	padding-bottom: 100px;
+}
+a :hover {
+	text-decoration:none; 
+	color: black;
+	transition: 0,3s all;
+	opacity: 0.3 ;
+}
+
