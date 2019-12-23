@@ -1,39 +1,56 @@
-#page404 {
-	background-repeat: no-repeat;
-	background-color: #74D0F1;
-	font-family:bolder;
-	background-size: 50px 50px;
-	text-align: center;
+#corp{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
 	
-}
-body{
-	height:100%;
-	padding:0px;
-	margin:0px;
 
 }
+#gr{
+	border:solid;
+	border-radius: 20px;
+	width: 250px;
+	height: 250px;
+}
+#p404{
+	border:solid;
+	border-radius: 20px;
+	width: 50%;
+	height: 300px;
 
-#messageerreur{
+}
+#page404 {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
+	background-color: #74D0F1;
+	font-family:bolder;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+
 }
 
 #raison{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #74D0F1;
 }
-#lien{
-	display: flex;
-	flex-direction: column-reverse;
-	align-items: center;
-	padding-bottom: 100px;
-}
-a :hover {
+
+
+a {
+	font-family:bolder;
+	list-style: none;
 	text-decoration:none; 
 	color: black;
-	transition: 0,3s all;
-	opacity: 0.3 ;
+	
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #74D0F1;
+
 }
 
